@@ -1,0 +1,149 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #03e1ff;
+    height: 150px;
+}
+
+.menuNavig {
+    background-color: #061531;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: #03e1ff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Michroma', sans-serif;
+    font-size: 13px;
+}
+
+body {
+    margin: 0px;
+        background-color: #031033;
+}
+
+.logo {
+    margin-right: 15px;
+    margin-left: 20px;
+
+}
+
+.h2 {
+    font-family: 'Michroma', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    bottom: -35px;
+    right: 50px;
+    background-color: #08292e;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.enhanced_brain {
+    background-image: url('medias/enhanced_brain.webp');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    letter-spacing: 1.5px;
+    margin-bottom: 80px;
+}
+
+.h2a {
+    font-family: 'Michroma', sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -30px;
+    right: 50px;
+    background-color: #08292e;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.soul_delivering {
+
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 100%;
+    
+    
+    
+}
+
+.article {
+    padding: 10px;
+}
+
+.paragraphe1 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #03e1ff;
+    margin-top: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 20px;
+    line-height: 31px;
+    
+    
+}
+
+.halfHuman_halfRobot {
+    
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    letter-spacing: 1.5px;
+    border-radius: 30px; 
+}
+
+.paragraphe2 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: aliceblue;
+    background-color: #06535e88;
+    bottom: 10px;
+    position: absolute; 
+}
+
+.h2b {
+    font-family: 'Michroma', sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 120px;
+    right: 50px;
+    background-color: #08292eb7;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.positionRelative {
+    position: relative;
+    margin-bottom: -4px;
+}
+
+.footer {
+    color: aliceblue;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.list {
+    display: flex;
+    list-style: none;
+}
+.list li {
+    margin-right: 30px;
+}
+
+.menufooterNavig {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Michroma', sans-serif;
+    font-size: 13px;
+}
