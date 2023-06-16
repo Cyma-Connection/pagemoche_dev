@@ -204,9 +204,30 @@ body {
 
 .h2contact {
     font-size: 45px;
+    padding-left: 100px;
 }
 
 .textewhite {
     color: white;
 }
+
+.formu {
+    padding-left: 100px;
+}
+
+  .button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #031033;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #03e1ff;
+  }
+
+  .button:hover {
+    background-color: #03e2ff69;
+  }
 

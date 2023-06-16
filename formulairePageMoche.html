@@ -2,78 +2,78 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
-    <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
+  <header class="header">
 
-        <img class="logo" src="medias/logo_aigen.png"
-            alt="logo of company AI GEN designing printed circuits for machine learning" width=" 100" height="100" />
-        <nav>
-            <a href="index.html" class="menuNavig">Accueil</a>
-            <a href="contact.html" class="menuNavig">Contact</a>
-        </nav>
+    <img class="logo" src="medias/logo_aigen.png"
+      alt="logo of company AI GEN designing printed circuits for machine learning" width=" 100" height="100" />
+    <nav>
+      <a href="index.html" class="menuNavig">Accueil</a>
+      <a href="contact.html" class="menuNavig">Contact</a>
+    </nav>
 
-    </header>
-    <div>
-      <img class="ia_contact" src="medias/ia_contact.webp">
-      <div class="iacontact_h2">
-        <h2 class="h2c"> Formulaire de contact </h2>
+  </header>
+  <div>
+    <img class="ia_contact" src="medias/ia_contact.webp">
+    <div class="iacontact_h2">
+      <h2 class="h2c"> Formulaire de contact </h2>
     </div>
-        <main>
-            <div class="textewhite">
-            <h2 class="h2contact">Formulaire à remplir</h2>
-            <form>
-              <div class="container">
-                <div class="block">
-                  <h2>Informations personnelles</h2>
-                  <label for="prenom">Prénom :</label>
-                  <input type="text" id="prenom" name="prenom" required>
-          
-                  <label for="nom">Nom :</label>
-                  <input type="text" id="nom" name="nom" required>
-          
-                  <label for="email">Email :</label>
-                  <input type="email" id="email" name="email" required>
-          
-                  <label for="vous-etes">Vous préférez plutôt :</label>
-                  <select id="vous-etes" name="vous-etes">
-                    <option value="chatgpt">ChatGPT</option>
-                    <option value="chattensor">ChatTensor</option>
-                    <option value="googlebard">Google Bard</option>
-                  </select>
-          
-                  <label for="abonne">Je suis abonné :</label>
-                  <input type="checkbox" id="abonne" name="abonne">
-                </div>
-          
-                <div class="block">
-                  <h2>Détails de l'événement</h2>
-                  <label for="date">Date de l'événement :</label>
-                  <input type="date" id="date" name="date" required>
-          
-                  <label for="message">Votre message :</label>
-                  <textarea id="message" name="message" required></textarea>
-          
-                  <label>Je suis intéressé par :</label>
-                  <input type="radio" id="agi" name="choix" value="AGI">
-                  <label for="agi">AGI</label>
-                  <input type="radio" id="asi" name="choix" value="ASI">
-                  <label for="asi">ASI</label>
-                </div>
-              </div>
-          
-              <input type="submit" value="Envoyer">
-            </form>
-        </div>
-        </main>
+    <main>
+      <div class="textewhite">
+        <h2 class="h2contact">Formulaire à remplir</h2>
+        <form class="formu" action="post">
+          <div class="container">
+            <div class="block">
+              <h2>Informations personnelles</h2>
+              <label for="prenom">Prénom :</label>
+              <input type="text" id="prenom" name="prenom" required>
+
+              <label for="nom">Nom :</label>
+              <input type="text" id="nom" name="nom" required>
+
+              <label for="email">Email :</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="vous-etes">Vous préférez plutôt :</label>
+              <select id="vous-etes" name="vous-etes">
+                <option value="chatgpt">ChatGPT</option>
+                <option value="chattensor">ChatTensor</option>
+                <option value="googlebard">Google Bard</option>
+              </select>
+
+              <label for="abonne">Je suis abonné :</label>
+              <input type="checkbox" id="abonne" name="abonne">
+            </div>
+
+            <div class="block">
+              <h2>Détails de l'événement</h2>
+              <label for="date">Date de l'événement :</label>
+              <input type="date" id="date" name="date" required>
+
+              <label for="message">Votre message :</label>
+              <textarea id="message" name="message" required></textarea>
+
+              <label>Je suis intéressé par :</label>
+              <input type="radio" id="agi" name="choix" value="AGI">
+              <label for="agi">AGI</label>
+              <input type="radio" id="asi" name="choix" value="ASI">
+              <label for="asi">ASI</label>
+            </div>
+          </div>
+
+          <input type="submit" class="button" value="Envoyer">
+        </form>
+      </div>
+    </main>
 </body>
 
 </html>
