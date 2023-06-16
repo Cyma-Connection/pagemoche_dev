@@ -147,3 +147,66 @@ body {
     font-family: 'Michroma', sans-serif;
     font-size: 13px;
 }
+
+.ia_contact {
+    width: 100%;
+}
+
+.ia_h2 {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    letter-spacing: 1.5px;
+    margin-bottom: 80px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container .block {
+    width: 48%;
+  }
+
+  .container .block h2 {
+    margin-top: 0;
+  }
+
+  .container .block label,
+  .container .block input,
+  .container .block select,
+  .container .block textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .h2c {
+    font-family: 'Michroma', sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -35px;
+    right: 50px;
+    background-color: #08292e;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.iacontact_h2 {
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    letter-spacing: 1.5px;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+.h2contact {
+    font-size: 45px;
+}
+
+.textewhite {
+    color: white;
+}
+
