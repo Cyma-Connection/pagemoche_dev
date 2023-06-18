@@ -19,7 +19,7 @@
 
 body {
     margin: 0px;
-        background-color: #031033;
+    background-color: #031033;
 }
 
 .logo {
@@ -68,9 +68,9 @@ body {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     height: 100%;
-    
-    
-    
+
+
+
 }
 
 .article {
@@ -87,18 +87,18 @@ body {
     border-bottom-right-radius: 15px;
     font-size: 20px;
     line-height: 31px;
-    
-    
+
+
 }
 
 .halfHuman_halfRobot {
-    
+
     height: 80vh;
     background-size: cover;
     background-position: center;
     position: relative;
     letter-spacing: 1.5px;
-    border-radius: 30px; 
+    border-radius: 30px;
 }
 
 .paragraphe2 {
@@ -107,7 +107,7 @@ body {
     color: aliceblue;
     background-color: #06535e88;
     bottom: 10px;
-    position: absolute; 
+    position: absolute;
 }
 
 .h2b {
@@ -132,10 +132,12 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .list {
     display: flex;
     list-style: none;
 }
+
 .list li {
     margin-right: 30px;
 }
@@ -160,28 +162,29 @@ body {
     letter-spacing: 1.5px;
     margin-bottom: 80px;
 }
+
 .container {
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  .container .block {
+.container .block {
     width: 48%;
-  }
+}
 
-  .container .block h2 {
+.container .block h2 {
     margin-top: 0;
-  }
+}
 
-  .container .block label,
-  .container .block input,
-  .container .block select,
-  .container .block textarea {
+.container .block label,
+.container .block input,
+.container .block select,
+.container .block textarea {
     display: block;
     margin-bottom: 10px;
-  }
+}
 
-  .h2c {
+.h2c {
     font-family: 'Michroma', sans-serif;
     color: rgb(255, 255, 255);
     position: absolute;
@@ -203,8 +206,11 @@ body {
 }
 
 .h2contact {
-    font-size: 45px;
+    font-size: 25px;
     padding-left: 100px;
+    font-family: 'Michroma', sans-serif;
+    font-weight: 900;
+    color: #03e1ff;
 }
 
 .textewhite {
@@ -213,21 +219,29 @@ body {
 
 .formu {
     padding-left: 100px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: 2px solid #03e1ff;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
 }
 
-  .button {
+.button {
     display: inline-block;
-    background-color: #4CAF50;
     color: #031033;
     padding: 10px 20px;
+    margin-top: 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     background-color: #03e1ff;
-  }
+    font-weight: 700;
+    font-size: larger;
+    margin-bottom: 50px;
+}
 
-  .button:hover {
+.button:hover {
     background-color: #03e2ff69;
-  }
-
+}
