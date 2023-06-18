@@ -150,6 +150,14 @@ body {
     font-size: 13px;
 }
 
+.menufooterNavig2 {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Michroma', sans-serif;
+    font-size: 13px;
+}
+
 .ia_contact {
     width: 100%;
 }
@@ -238,7 +246,7 @@ body {
     transition: background-color 0.3s ease;
     background-color: #03e1ff;
     font-weight: 700;
-    font-size: larger;
+    font-size: medium;
     margin-bottom: 50px;
 }
 
