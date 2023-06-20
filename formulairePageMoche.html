@@ -30,7 +30,7 @@
     <main>
       <div class="textewhite">
         <h2 class="h2contact">Apprenez-nous à mieux vous connaitre</h2>
-        <form class="formu" action="post">
+        <form action="post">
           <div class="container">
             <div class="block">
               <h2>Informations personnelles</h2>
@@ -51,7 +51,11 @@
               </select>
 
               <label for="abonne">Je n'ai aucunes connaissances en Intelligence Artificielle :</label>
-              <input type="checkbox" id="abonne" name="abonne">
+              <input type="checkbox" id="abonne" name="debutant">
+              <label for="median">Je m'intéresse au monde de la robotique :</label>
+              <input type="checkbox" id="median" name="medium">
+              <label for="hard">J'ai déjà utilisé ChatGPT :</label>
+              <input type="checkbox" id="hard" name="confirmé">
             </div>
 
             <div class="block">
@@ -62,23 +66,25 @@
               <label for="message">Votre message :</label>
               <textarea id="message" name="message" required></textarea>
 
-              <label>Je suis intéressé par :</label>
+              <label class="agiasiani">Je suis intéressé par :</label>
               <input type="radio" id="agi" name="choix" value="AGI">
               <label for="agi">AGI</label>
               <input type="radio" id="asi" name="choix" value="ASI">
               <label for="asi">ASI</label>
-            </div>
+              <input type="radio" id="ani" name="choix" value="ANI">
+              <label for="asi">ANI</label>
+            </div>     <input type="submit" class="button" value="Envoyer">
           </div>
+     
 
-          <input type="submit" class="button" value="Envoyer">
         </form>
       </div>
     </main>
     <footer class="footer">
       <ul class="list">
         <li class="menufooterNavig">© An awesome website from Julien Debournou</li>
-        <li class="menufooterNavig2"><a href="index.html">accueil</a></li>
-        <li class="menufooterNavig2"><a href="formulairePageMoche.html">contact</a></li>
+        <li><a href="index.html" class="menufooterNavig2">accueil</a></li>
+        <li><a href="formulairePageMoche.html" class="menufooterNavig2">contact</a></li>
       </ul>
     </footer>
 </body>
